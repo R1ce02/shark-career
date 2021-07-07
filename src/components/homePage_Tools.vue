@@ -7,7 +7,7 @@
         <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum numquam odit, labore distinctio soluta blanditiis cupiditate tempora autem ad facilis assumenda qui nobis impedit quas quo modi ex.</p>
       </div>
       <div class="col-8">
-        <div id="logosBox" class="shadow">
+        <div id="logosBox" class="shadow rounded">
           <img class="img-fluid logo" src="../assets/Grayscale_icons/image1_greyscale.png" />
           <img class="img-fluid logo" src="../assets/Grayscale_icons/image2_greyscale.png" />
           <img class="img-fluid logo" src="../assets/Grayscale_icons/image3_greyscale.png" />

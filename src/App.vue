@@ -3,6 +3,7 @@
   <image-box />
   <mission />
   <tools />
+  <benefits />
 </template>
 
 <script>
@@ -10,13 +11,15 @@ import Navbar from "./components/Navbar.vue";
 import imageBox from "./components/homePage_Image.vue";
 import mission from "./components/homePage_mission.vue";
 import tools from "./components/homePage_Tools.vue";
+import benefits from "./components/homePage_Benefits.vue";
 
 export default {
   components: {
     Navbar,
     imageBox,
     mission,
-    tools
+    tools,
+    benefits
   },
 };
 </script>
