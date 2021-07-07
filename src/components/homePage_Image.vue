@@ -27,7 +27,7 @@ h1 {
 }
 
 img {
-  filter: brightness(50%);
+  filter: brightness(60%);
 }
 
 @media screen and (max-width: 600px) {

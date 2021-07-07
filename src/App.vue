@@ -1,27 +1,22 @@
 <template>
   <navbar />
   <image-box />
-  <div class="container">
-    <h3>Our Mission</h3>
-    <h2>Offer State of The Art IT Solutions to Our Customers</h2>
-    <p>
-      Our mission is to offer our customers a customised and specialised IT
-      service. We customise our IT solutions to their needs and their
-      priorities. We use new and promising tools to create and develop our
-      products. <br> <br>Exciting challenges lie in our path and we are ready to take
-      them on! <br>Join us on our journey...
-    </p>
-  </div>
+  <mission />
+  <tools />
 </template>
 
 <script>
 import Navbar from "./components/Navbar.vue";
 import imageBox from "./components/homePage_Image.vue";
+import mission from "./components/homePage_mission.vue";
+import tools from "./components/homePage_Tools.vue";
 
 export default {
   components: {
     Navbar,
     imageBox,
+    mission,
+    tools
   },
 };
 </script>
@@ -35,22 +30,21 @@ export default {
   font-size: 100%;
 }
 
-h3 {
+.cat {
   color: grey;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
-h2 {
-  font-weight: 600;
+.title {
+  font-weight: 500;
   font-size: 2rem;
 }
 
-p {
-  font-size: 2rem;
+.txt {
+  font-size: 1.5rem;
 }
 
-.container {
-  margin-top: 30px;
-}
+/* non global */
+
 </style>
