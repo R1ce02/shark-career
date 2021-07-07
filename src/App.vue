@@ -4,6 +4,7 @@
   <mission />
   <tools />
   <benefits />
+  <places />
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import imageBox from "./components/homePage_Image.vue";
 import mission from "./components/homePage_mission.vue";
 import tools from "./components/homePage_Tools.vue";
 import benefits from "./components/homePage_Benefits.vue";
+import places from "./components/homePage_Places.vue";
 
 export default {
   components: {
@@ -19,7 +21,8 @@ export default {
     imageBox,
     mission,
     tools,
-    benefits
+    benefits,
+    places
   },
 };
 </script>
