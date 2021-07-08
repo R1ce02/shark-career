@@ -52,7 +52,7 @@ img {
   background: linear-gradient(to top, #1d5097 50%, transparent 50%);
   animation-name: highlight;
   animation-delay: 1s;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: 1;
   animation-direction: alternate; /* Make the animation run back and forth */
 }

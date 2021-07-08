@@ -1,3 +1,61 @@
 <template>
-    <h1>Hello Shark</h1>
+  <image-box />
+  <mission />
+  <tools />
+  <benefits />
+  <places />
+  <div id="interestedStrip" class="container-fluid">
+    <h1>Interested?</h1>
+    <a href="mailto:rafi.kahn@shark-soft.com"><button type="button" class="btn btn-outline-light">Send Us An Email</button></a>
+  </div>
 </template>
+
+<script>
+import imageBox from "../components/homePage_Image.vue";
+import mission from "../components/homePage_mission.vue";
+import tools from "../components/homePage_Tools.vue";
+import benefits from "../components/homePage_Benefits.vue";
+import places from "../components/homePage_Places.vue";
+
+export default {
+    components: {
+    imageBox,
+    mission,
+    tools,
+    benefits,
+    places
+  },
+}
+</script>
+
+<style scoped>
+#interestedStrip {
+  background-color: #1d5097;
+  text-align: center;
+  color: white;
+  padding: 3rem 0rem 3rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+</style>

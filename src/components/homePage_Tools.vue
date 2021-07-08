@@ -4,7 +4,7 @@
       <div class="col-4">
         <h3 class="cat">Our Tools</h3>
         <h2 class="title">Use The Right Tools For The Right Job</h2>
-        <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum numquam odit, labore distinctio soluta blanditiis cupiditate tempora autem ad facilis assumenda qui nobis impedit quas quo modi ex.</p>
+        <p class="txt">We are focused on creating great products and standing out from the crowd and this requires us to have a wide range of skills. <br> Your unique skill set can increase our palette of services. </p>
       </div>
       <div class="col-8">
         <div id="logosBox" class="shadow rounded">

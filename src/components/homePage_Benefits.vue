@@ -45,8 +45,8 @@
 }
 
 .box {
-    display: inline-block;
-  margin: 0px 30px 0px 30px;
+  display: inline-block;
+  margin: 0rem 2rem 0rem 2rem;
   display: flex;
   flex-direction: column;
   padding: 10px 0px 10px 0px;
