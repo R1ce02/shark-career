@@ -19,7 +19,15 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   font-size: 100%;
+
+
 }
+
+html, body {
+  height: 100vh;
+  overflow: hidden;
+}
+
 
 .cat {
   color: grey;

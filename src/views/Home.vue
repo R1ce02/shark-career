@@ -1,12 +1,29 @@
 <template>
-  <image-box />
-  <mission />
-  <tools />
-  <benefits />
-  <places />
+<div class="parent">
+  <section>
+    <image-box />
+  </section>
+  <section>
+    <mission />
+  </section>
+  <section>
+    <tools />
+  </section>
+  <section>
+    <benefits />
+  </section>
+  <section>
+    <places />
+  </section>
+
   <div id="interestedStrip" class="container-fluid">
     <h1>Interested?</h1>
-    <a href="mailto:rafi.kahn@shark-soft.com"><button type="button" class="btn btn-outline-light">Send Us An Email</button></a>
+    <a href="mailto:rafi.kahn@shark-soft.com"
+      ><button type="button" class="btn btn-outline-light">
+        Send Us An Email
+      </button></a
+    >
+  </div>
   </div>
 </template>
 
@@ -18,14 +35,14 @@ import benefits from "../components/homePage_Benefits.vue";
 import places from "../components/homePage_Places.vue";
 
 export default {
-    components: {
+  components: {
     imageBox,
     mission,
     tools,
     benefits,
-    places
+    places,
   },
-}
+};
 </script>
 
 <style scoped>
@@ -58,4 +75,24 @@ a {
 a:hover {
   color: black;
 }
+
+.parent {
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
 </style>
