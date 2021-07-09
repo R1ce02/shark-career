@@ -16,47 +16,48 @@
         <div id="logosBox" class="rounded">
           <img
             class="img-fluid logo"
-            src="../assets/Grayscale_icons/image1_greyscale.png"
+            src="@/assets/Grayscale_icons/image1.png"
           />
           <img
             class="img-fluid logo"
-            src="../assets/Grayscale_icons/image2_greyscale.png"
+            src="@/assets/Grayscale_icons/image2.png"
           />
           <img
             class="img-fluid logo"
-            src="../assets/Grayscale_icons/image3_greyscale.png"
+            src="@/assets/Grayscale_icons/image3.png"
           />
           <img
             class="img-fluid logo"
-            src="../assets/Grayscale_icons/image4_greyscale.png"
+            src="@/assets/Grayscale_icons/image4.png"
           />
           <img
             class="img-fluid logo"
-            src="../assets/Grayscale_icons/image5_greyscale.png"
+            src="@/assets/Grayscale_icons/image5.png"
+          />
+          <img
+            id="oracle"
+            class="img-fluid logo"
+            src="@/assets/Grayscale_icons/image7.png"
           />
           <img
             class="img-fluid logo"
-            src="../assets/Grayscale_icons/image7_greyscale.png"
+            src="@/assets/Grayscale_icons/image6.png"
           />
           <img
             class="img-fluid logo"
-            src="../assets/Grayscale_icons/image6_greyscale.png"
+            src="@/assets/Grayscale_icons/image9.png"
           />
           <img
             class="img-fluid logo"
-            src="../assets/Grayscale_icons/image9_greyscale.png"
+            src="@/assets/Grayscale_icons/image8.png"
           />
           <img
             class="img-fluid logo"
-            src="../assets/Grayscale_icons/image8_greyscale.png"
+            src="@/assets/Grayscale_icons/image10.png"
           />
           <img
             class="img-fluid logo"
-            src="../assets/Grayscale_icons/image10_greyscale.png"
-          />
-          <img
-            class="img-fluid logo"
-            src="../assets/Grayscale_icons/image11_greyscale.png"
+            src="@/assets/Grayscale_icons/image11.png"
           />
         </div>
       </div>
@@ -129,5 +130,9 @@ export default {
   100% {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
+}
+
+#oracle {
+  height: 40px;
 }
 </style>

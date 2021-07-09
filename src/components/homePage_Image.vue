@@ -1,6 +1,8 @@
 <template>
   <div class="container-fluid no-padding">
-    <img class="img-fluid" src="../assets/code-pic.png" />
+    <div id="image">
+    <img class="img-fluid" src="../assets/code-pic3.png" />
+    </div>
     <h1>We Need <span class="test">Your Talent</span></h1>
   </div>
 </template>
@@ -26,8 +28,16 @@ h1 {
   font-size: 4rem;
 }
 
+#image {
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
 img {
   filter: brightness(60%);
+  width: 100vw;
+  height: auto;
 }
 
 @media screen and (max-width: 600px) {
