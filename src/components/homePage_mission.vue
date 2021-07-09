@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h3 class="cat">Our Mission</h3>
-    <h2 class="title">Offer State of The Art IT Solutions to Our Customers</h2>
+    <h2 class="title">Provide Others With Supercharged IT Services</h2>
     <p class="txt">
       Our mission is to offer our customers a customised and specialised IT
       service. We customise our IT solutions to their needs and their

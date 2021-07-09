@@ -23,10 +23,10 @@ export default {
 
 }
 
-html, body {
+/* html, body {
   height: 100vh;
   overflow: hidden;
-}
+} */
 
 
 .cat {

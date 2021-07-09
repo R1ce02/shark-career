@@ -17,10 +17,10 @@
   </section>
 
   <div id="interestedStrip" class="container-fluid">
-    <h1>Interested?</h1>
+    <h1>Want To Join Our Team?</h1>
     <a href="mailto:rafi.kahn@shark-soft.com"
       ><button type="button" class="btn btn-outline-light">
-        Send Us An Email
+        Contact Us
       </button></a
     >
   </div>
@@ -76,7 +76,8 @@ a:hover {
   color: black;
 }
 
-.parent {
+
+/* .parent {
   overflow: scroll;
   height: 100vh;
   scroll-snap-type: mandatory;
@@ -86,13 +87,13 @@ a:hover {
 
 section {
   height: 100vh;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 
-}
+} */
 
 
 </style>
