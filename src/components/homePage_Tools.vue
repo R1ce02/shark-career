@@ -72,11 +72,15 @@ export default {
   methods: {
     arise(entry) {
       entry.forEach((change) => {
-        change.target.classList.add("rising");
+        change.target.classList.toggle("rising");
       });
     },
     observeEntrance() {
-      let options = { threshold: [1] };
+      let options = {
+        root: null, // Sets the framing element to the viewport
+        rootMargin: "0px",
+        threshold: [0.5],
+      };
 
       let observer = new IntersectionObserver(this.arise, options);
 
@@ -113,7 +117,7 @@ export default {
 
 .rising {
   animation-name: shadow;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-fill-mode: forwards;
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="title">Our Places</h1>
+    <h2 class="title">Our Places</h2>
     <div class="row">
       <div class="col">
         <p class="txt">Wollzeile 25 / 27 (Mezzanin)<br />1010 Wien</p>
@@ -14,7 +14,7 @@
 </template>
 
 <style scoped>
-h1 {
+h2 {
   text-align: center;
 }
 
