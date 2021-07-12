@@ -17,8 +17,9 @@
       </div>
 
       <tools />
-      <benefits />
       <projects />
+      <benefits />
+      
       <offer />
 
       <div class="row" id="places">
@@ -94,11 +95,11 @@ a:hover {
 }
 
 #mission {
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
 }
 
 #places {
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
 }
 </style>

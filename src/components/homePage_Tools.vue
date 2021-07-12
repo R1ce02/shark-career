@@ -94,7 +94,7 @@ export default {
 
 <style scoped>
 #tools {
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
 }
 
 #logosBox {
@@ -131,10 +131,6 @@ export default {
 }
 
 @media only screen and (max-width: 600px) {
-  .row {
-    display: flex;
-    flex-direction: column;
-  }
 
   .col-4 {
     padding-right: 0px;

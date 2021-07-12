@@ -39,7 +39,7 @@
 }
 
 #projects {
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
 }
 
 </style>
