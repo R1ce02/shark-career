@@ -1,9 +1,9 @@
 <template>
-  <div class="container" id="root">
-    <h3 class="cat">Our Projects</h3>
+<div class="row" id="projects">
+    <h5 class="greytxt">Our Projects</h5>
     <h2 class="title">Check Out Some of Our Previous Projects</h2>
 
-    <div class="row">
+    
       <div class="col-sm">
         <div class="card">
           <div class="card-body">
@@ -27,7 +27,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <style scoped>
@@ -38,4 +37,9 @@
 .card {
     height: 100%;
 }
+
+#projects {
+  margin-bottom: 5vh;
+}
+
 </style>

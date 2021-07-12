@@ -1,8 +1,7 @@
 <template>
-  <div class="container">
-    <div class="row">
+    <div class="row" id="tools">
       <div class="col-lg-4">
-        <h3 class="cat">Our Tools</h3>
+        <h5 class="greytxt">Our Tools</h5>
         <h2 class="title">Widen The Horizon</h2>
         <p class="txt">
           We are focused on creating great products and offering exceptional
@@ -62,7 +61,7 @@
         </div>
       </div>
     </div>
-  </div>
+
 </template>
 
 <script>
@@ -94,13 +93,8 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.col-4 {
-  padding-right: 100px;
+#tools {
+  margin-bottom: 5vh;
 }
 
 #logosBox {

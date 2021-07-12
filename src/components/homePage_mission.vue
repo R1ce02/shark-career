@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h3 class="cat">Our Mission</h3>
+    <h5 class="greytxt">Our Mission</h5>
     <h2 class="title">Provide Others With Supercharged IT Services</h2>
     <p class="txt">
       Our mission is to offer our customers a customised and specialised IT

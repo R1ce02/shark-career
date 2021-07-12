@@ -1,14 +1,21 @@
 <template>
-  <navbar />
+  <nav
+    class="navbar navbar-expand-lg navbar-dark shadow"
+    style="background: var(--main-accent)"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="@/assets/shark_logo.png" height="35" />
+      </a>
+      <!-- <button type="button" class="btn btn-outline-light" v-on:click="goToApplicationPage">Apply Now</button> -->
+    </div>
+  </nav>
   <router-view />
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue';
-
-
 export default {
-  components: { Navbar },
+
 };
 </script>
 
@@ -19,20 +26,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   font-size: 100%;
+  background-color: var(--background-color);
+  color: black;
+}
 
+:root {
+  --main-accent: #1d5097;
+  --background-color: #FFFFFF;
 
 }
 
-/* html, body {
-  height: 100vh;
-  overflow: hidden;
-} */
-
-
-.cat {
+.greytxt {
   color: grey;
-  font-size: 1rem;
-  font-weight: 500;
 }
 
 .title {
@@ -44,11 +49,11 @@ export default {
   font-size: 1.5rem;
 }
 
+.centeredtxt {
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
-  .cat {
-
-  }
-
   .title {
     font-size: 24px;
   }
