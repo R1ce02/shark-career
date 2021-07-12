@@ -14,7 +14,7 @@ export default {
 
 <style>
 #app {
-  font-family: "Open Sans", sans-serif;
+  font-family: Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
