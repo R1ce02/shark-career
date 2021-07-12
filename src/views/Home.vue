@@ -13,6 +13,9 @@
     <benefits />
   </section>
   <section>
+    <projects />
+  </section>
+  <section>
     <offer />
   </section>
   <section>
@@ -38,6 +41,7 @@ import tools from "../components/homePage_Tools.vue";
 import benefits from "../components/homePage_Benefits.vue";
 import places from "../components/homePage_Places.vue";
 import offer from "../components/homePage_Offer.vue"
+import projects from "../components/homePage_projects.vue";
 
 export default {
   components: {
@@ -46,7 +50,8 @@ export default {
     tools,
     benefits,
     places,
-    offer
+    offer,
+    projects
   },
 };
 </script>

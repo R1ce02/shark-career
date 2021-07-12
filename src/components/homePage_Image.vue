@@ -28,12 +28,6 @@ h1 {
   font-size: 4rem;
 }
 
-#image {
-  margin: 0px;
-  height: 100vh;
-  width: 100vw;
-}
-
 img {
   filter: brightness(60%);
   width: 100vw;
