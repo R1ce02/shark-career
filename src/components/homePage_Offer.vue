@@ -24,7 +24,7 @@
         <p class="text">You want to gain experience in the field of IT alongside your studies? We are prepared to give you a part-time job and are ready to train you. Our team will keep your studies in mind and train you accordingly. If you are studying computer science apply below.</p>
       </div>
       <div class="col">
-        <h4 class="centertxt">For Interns</h4>
+        <h3 class="centertxt">For Interns</h3>
         <p class="text">Need a summer internship? You will be able to earn a great amount of practical experience with us. We will do our part in teaching and training you to the best of our capability. If you are a student of a school of higher technical education (HTL) and have the thirst to become better apply now below.</p>
       </div>
     </div>

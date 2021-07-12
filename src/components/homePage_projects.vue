@@ -35,10 +35,6 @@
   margin-bottom: 100px;
 }
 
-.col {
-
-}
-
 .card {
     height: 100%;
 }

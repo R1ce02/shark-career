@@ -3,7 +3,7 @@
     <div class="row">
       <h1 id="title" class="title">Your Benefits</h1>
     </div>
-    <div class="row" style="margin-top: 1rem;">
+    <div class="row" style="margin-top: 1rem">
       <div class="col shadow-sm box rounded border">
         <img class="imgIcon" src="../assets/benefits_icons/clock.svg" />
         <h2>Flexible Hours</h2>
