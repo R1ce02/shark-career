@@ -44,6 +44,20 @@ export default {
   font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .cat {
+
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .txt {
+    font-size: 20px;
+  }
+}
+
 /* non global */
 
 </style>

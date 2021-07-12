@@ -4,7 +4,7 @@
     <h2 class="title">Check Out Some of Our Previous Projects</h2>
 
     <div class="row">
-      <div class="col">
+      <div class="col-sm">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Project: PORRtunity+</h5>
@@ -15,7 +15,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-sm">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Project: IVV Migration to Java/Linux</h5>

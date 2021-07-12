@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-4">
+      <div class="col-lg-4">
         <h3 class="cat">Our Tools</h3>
         <h2 class="title">Widen The Horizon</h2>
         <p class="txt">
@@ -12,7 +12,7 @@
           Your unique skill set can increase our palette of services.
         </p>
       </div>
-      <div class="col-8">
+      <div class="col-lg-8">
         <div id="logosBox" class="rounded">
           <img
             class="img-fluid logo"
@@ -134,5 +134,25 @@ export default {
 
 #oracle {
   height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-4 {
+    padding-right: 0px;
+  }
+
+  .logo {
+    height: 40px;
+    margin: 0.8rem;
+  }
+
+  #oracle {
+    height: 30px;
+  }
 }
 </style>

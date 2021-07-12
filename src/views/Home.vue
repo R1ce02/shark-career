@@ -24,7 +24,7 @@
   
 
   <div id="interestedStrip" class="container-fluid">
-    <h1>Want To Join Our Team?</h1>
+    <h3>Want To Join Our Team?</h3>
     <a href="mailto:rafi.kahn@shark-soft.com"
       ><button type="button" class="btn btn-outline-light">
         Contact Us
@@ -69,12 +69,8 @@ export default {
 }
 
 .btn {
-  margin-left: 5rem;
+  margin-left: 3vw;
   font-size: 1.5rem;
-}
-
-h1 {
-  font-size: 3rem;
 }
 
 a {
