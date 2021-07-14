@@ -1,5 +1,8 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue';
+import references from '../views/References.vue';
+import vacancies from '../views/Vacancies.vue';
+import application from '../views/ApplicationForm.vue';
 // import Apply from '../views/Apply.vue';
 
 const routes = [
@@ -8,6 +11,21 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  {
+    path: '/references',
+    name: 'References',
+    component: references
+  },
+  {
+    path: '/vacancies',
+    name: 'Vacancies',
+    component: vacancies
+  },
+  {
+    path: '/apply/:id',
+    name: 'Application',
+    component: application
+  }
   // {
   //   path: '/apply',
   //   name: 'Apply',

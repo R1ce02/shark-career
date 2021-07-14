@@ -72,14 +72,14 @@ export default {
   methods: {
     arise(entry) {
       entry.forEach((change) => {
-        change.target.classList.toggle("rising");
+        change.target.classList.add("rising");
       });
     },
     observeEntrance() {
       let options = {
         root: null, // Sets the framing element to the viewport
         rootMargin: "0px",
-        threshold: [0.5],
+        threshold: [1],
       };
 
       let observer = new IntersectionObserver(this.arise, options);

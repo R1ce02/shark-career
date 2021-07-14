@@ -19,11 +19,10 @@
       <tools />
       <projects />
       <benefits />
-      
       <offer />
 
       <div class="row" id="places">
-        <h2 class="title centeredtxt">Our Places</h2>
+        <h2 class="title centeredtxt">Our Locations</h2>
 
         <div class="col">
           <p class="txt centeredtxt">

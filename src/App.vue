@@ -1,21 +1,53 @@
 <template>
-  <nav
-    class="navbar navbar-expand-lg navbar-dark shadow"
-    style="background: var(--main-accent)"
-  >
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="@/assets/shark_logo.png" height="35" />
-      </a>
-      <!-- <button type="button" class="btn btn-outline-light" v-on:click="goToApplicationPage">Apply Now</button> -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: var(--sharks-color);">
+  <div class="container-fluid d-flex justify-content-around">
+    <a class="navbar-brand" href="#">
+      <img src="@/assets/shark_logo.png" alt="" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" v-on:click="goToHome">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " v-on:click="goToReferences">References</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " v-on:click="goToVacancies">All Jobs</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
   <router-view />
 </template>
 
 <script>
 export default {
-
+methods: {
+  goToReferences() {
+    this.$router.push('References');
+  },
+  goToHome() {
+    this.$router.push('/');
+  }, goToVacancies() {
+    this.$router.push('vacancies');
+  }
+}
 };
 </script>
 
@@ -26,18 +58,25 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   font-size: 100%;
+
+}
+
+html, body {
   background-color: var(--background-color);
-  color: black;
+  color: var(--font-color);
 }
 
 :root {
-  --main-accent: #1d5097;
+  --main-accent: #3C1874;
   --background-color: #FFFFFF;
-
+  --font-color: #283747;
+  --sharks-color: #1d5097;
 }
 
 .greytxt {
-  color: grey;
+  color: var(--main-accent);
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .title {
@@ -46,11 +85,16 @@ export default {
 }
 
 .txt {
-  font-size: 1.5rem;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .centeredtxt {
   text-align: center;
+}
+
+.nav-item {
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 600px) {
@@ -63,6 +107,39 @@ export default {
   }
 }
 
-/* non global */
+.nav-link {
+  cursor: pointer;
+}
 
+/* underline on hover animation */
+.underline {
+  color: var(--main-accent);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.underline:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: var(--main-accent);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.underline:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
 </style>

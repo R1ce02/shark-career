@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid no-padding">
     <div id="image">
-    <img class="img-fluid" src="../assets/code-pic3.png" />
+    <img class="img-fluid" src="../assets/mainImg.jpg" />
     </div>
     <h1>We Need <span class="test">Your Talent</span></h1>
   </div>
@@ -29,7 +29,7 @@ h1 {
 }
 
 img {
-  filter: brightness(60%);
+  filter: brightness(50%);
   width: 100vw;
   height: auto;
 }
