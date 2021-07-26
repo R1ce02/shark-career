@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '../views/Home.vue';
+import Home from '../views/Career-Home.vue';
 import references from '../views/References.vue';
 import vacancies from '../views/Vacancies.vue';
 import application from '../views/ApplicationForm.vue';

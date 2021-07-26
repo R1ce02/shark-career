@@ -40,12 +40,12 @@
 export default {
 methods: {
   goToReferences() {
-    this.$router.push('References');
+    this.$router.push({ name:'References' });
   },
   goToHome() {
     this.$router.push('/');
   }, goToVacancies() {
-    this.$router.push('vacancies');
+    this.$router.push({ name: 'Vacancies' });
   }
 }
 };
