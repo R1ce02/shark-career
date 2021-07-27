@@ -45,9 +45,5 @@ export default {
 #applyBtn {
   font-size: 1.2rem;
 }
-
-#offer {
-  margin-bottom: 7vh;
-}
 </style>
 

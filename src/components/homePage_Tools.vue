@@ -93,9 +93,6 @@ export default {
 </script>
 
 <style scoped>
-#tools {
-  margin-bottom: 7vh;
-}
 
 #logosBox {
   display: flex;

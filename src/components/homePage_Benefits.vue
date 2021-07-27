@@ -3,10 +3,10 @@
     <div class="row">
       <h1 class="title centeredtxt">Your Benefits</h1>
     </div>
-    <div class="row">
+    <div class="row" id="content">
       <div class="col-sm shadow-sm box rounded border">
         <span class=""><i class="fas fa-clock fa-3x"></i></span>
-        <h2>Flexible Hours</h2>
+        <h2 class="title">Flexible Hours</h2>
         <div class="content">You have flexible working hours, which allows you to work when you find it best suiting your schedule.</div>
       </div>
       <div class="col-sm shadow-sm box rounded border">
@@ -42,13 +42,14 @@
 
 
 <style scoped>
-#benefits{
-  margin-bottom: 7vh;
-} 
 
 /* .row {
   height: 20vh;
 } */
+
+#content, #mid {
+  height: 200px;
+}
 
 .box {
   margin: 0rem 1rem 0rem 1rem;
@@ -88,7 +89,7 @@ i {
 }
 
 .box:hover i{
-  transform: translateY(-150%);
+  transform: translateY(-200px);
 }
 
 .box:hover h2{
@@ -103,7 +104,7 @@ i {
   }  
   to {
     opacity: 1;
-    transform: translateY(-3vw);
+    transform: translateY(-2vw);
   }
 }
 

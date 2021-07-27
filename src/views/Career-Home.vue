@@ -3,7 +3,7 @@
     <image-box />
 
     <div class="container">
-      <div class="row" id="mission">
+      <div class="row my-5" id="mission">
         <h5 class="greytxt">Our Mission</h5>
         <h2 class="title">Provide Others With Supercharged IT Services</h2>
         <p class="txt">
@@ -16,10 +16,9 @@
         </p>
       </div>
 
-      <tools />
-      <projects />
-      <benefits />
-      <offer />
+      <tools class="mb-5"/>
+      <benefits class="mb-5"/>
+      <offer class="mb-5"/>
 
       <div class="row" id="places">
         <h2 class="title centeredtxt">Our Locations</h2>
@@ -53,7 +52,6 @@ import imageBox from "../components/homePage_Image.vue";
 import tools from "../components/homePage_Tools.vue";
 import benefits from "../components/homePage_Benefits.vue";
 import offer from "../components/homePage_Offer.vue";
-import projects from "../components/homePage_projects.vue";
 
 export default {
   components: {
@@ -61,7 +59,6 @@ export default {
     tools,
     benefits,
     offer,
-    projects,
   },
 };
 </script>
@@ -91,14 +88,5 @@ a {
 
 a:hover {
   color: black;
-}
-
-#mission {
-  margin-top: 7vh;
-  margin-bottom: 7vh;
-}
-
-#places {
-  margin-bottom: 7vh;
 }
 </style>

@@ -32,14 +32,14 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <router-link :to='{ name:"References" }'>
-      <div id="references" class="float-end" v-on:click="goToReferences">
-        <p class="txt" style="margin-right: 5px">Our References</p>
-        <i class="fas fa-arrow-right fa-md"></i>
-      </div>
+    <!-- <div class="row">
+      <router-link :to="{ name: 'References' }">
+        <div id="references" class="float-end" v-on:click="goToReferences">
+          <p class="txt" style="margin-right: 5px">Our References</p>
+          <i class="fas fa-arrow-right fa-md"></i>
+        </div>
       </router-link>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -47,23 +47,15 @@
 export default {
   methods: {
     goToReferences() {
-      this.$router.push("References")
-    }
-  }
-}
+      this.$router.push("References");
+    },
+  },
+};
 </script>
 
 <style scoped>
-.container {
-  margin-bottom: 100px;
-}
-
 .card {
   height: 100%;
-}
-
-#projects {
-  margin-bottom: 7vh;
 }
 
 #references {

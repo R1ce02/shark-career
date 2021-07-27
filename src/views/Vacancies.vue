@@ -1,6 +1,6 @@
 <template>
     <div class="container" id="root">
-        <h1>Open Vacancies</h1>
+        <h1 class="title">Open Vacancies</h1>
         <div id="vacancyList">
             <div v-bind:key="job.j_id" v-for="job in jobs" class="item border rounded">
                 <h4>{{job.j_name}}</h4>
