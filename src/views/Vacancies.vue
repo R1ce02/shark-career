@@ -1,5 +1,5 @@
 <template>
-    <div class="container" id="root">
+    <div class="container pt-3" id="root">
         <h1 class="title">Open Vacancies</h1>
         <div id="vacancyList">
             <div v-bind:key="job.j_id" v-for="job in jobs" class="item border rounded">
@@ -55,9 +55,6 @@ export default {
 </script>
 
 <style scoped>
-#root {
-    margin-top: 2vh;
-}
 
 .item {
     margin: 1rem 0rem 1rem 0rem;

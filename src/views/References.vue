@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-3" id="root">
+  <div class="container pt-3" id="root">
 
     <div class="row mb-3">
       <projects />

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: var(--sharks-color);">
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: var(--sharks-color);">
   <div class="container-fluid d-flex justify-content-around">
     <a class="navbar-brand" href="#">
       <img src="@/assets/shark_logo.png" alt="" height="40">
@@ -16,14 +16,18 @@
           <a class="nav-link " v-on:click="goToReferences">References</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " v-on:click="goToVacancies">All Jobs</a>
+          <a class="nav-link " v-on:click="goToSolutions">Solutions</a>
         </li>
-        
+        <li class="nav-item">
+          <a class="nav-link " v-on:click="goToVacancies">Career</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
-  <router-view />
+  <div style="margin-top: 66px;">
+    <router-view id="mainContent" />
+  </div>
 </template>
 
 <script>
@@ -33,9 +37,11 @@ methods: {
     this.$router.push({ name:'References' });
   },
   goToHome() {
-    this.$router.push('/');
+    this.$router.push({ name: 'Home'});
   }, goToVacancies() {
     this.$router.push({ name: 'Vacancies' });
+  }, goToSolutions() {
+    this.$router.push({ name: 'Solutions' });
   }
 }
 };
@@ -71,7 +77,7 @@ html, body {
 
 .title {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .txt {
@@ -86,6 +92,11 @@ html, body {
 .nav-item {
   text-transform: uppercase;
 }
+
+#mainContent {
+  margin-top: 63px;
+}
+
 
 @media only screen and (max-width: 600px) {
   .title {

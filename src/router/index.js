@@ -3,6 +3,7 @@ import Home from '../views/Career-Home.vue';
 import references from '../views/References.vue';
 import vacancies from '../views/Vacancies.vue';
 import application from '../views/ApplicationForm.vue';
+import solutions from '../views/Solutions.vue';
 // import Apply from '../views/Apply.vue';
 
 const routes = [
@@ -25,6 +26,11 @@ const routes = [
     path: '/apply/:id',
     name: 'Application',
     component: application
+  },
+  {
+    path: '/solutions',
+    name: 'Solutions',
+    component: solutions
   }
   // {
   //   path: '/apply',
