@@ -18,9 +18,6 @@
         <li class="nav-item">
           <a class="nav-link " v-on:click="goToSolutions">Solutions</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link " v-on:click="goToVacancies">Career</a>
-        </li>
       </ul>
     </div>
   </div>

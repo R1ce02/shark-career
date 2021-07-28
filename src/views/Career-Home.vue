@@ -2,7 +2,13 @@
   <div class="parent">
     <image-box />
 
-    <div class="container">
+    <div class="container mt-3">
+      <h2 class="title">Open Vacancies</h2>
+      <div id="jobs" class="px-3 border">
+        
+        <vacancies />
+      </div>
+
       <div class="row my-5" id="mission">
         <h5 class="greytxt">Our Mission</h5>
         <h2 class="title">Provide Others With Supercharged IT Services</h2>
@@ -52,6 +58,7 @@ import imageBox from "../components/homePage_Image.vue";
 import tools from "../components/homePage_Tools.vue";
 import benefits from "../components/homePage_Benefits.vue";
 import offer from "../components/homePage_Offer.vue";
+import vacancies from "../components/homePage_vacancies.vue";
 
 export default {
   components: {
@@ -59,6 +66,7 @@ export default {
     tools,
     benefits,
     offer,
+    vacancies
   },
 };
 </script>
@@ -73,6 +81,10 @@ export default {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+#jobs {
+  overflow-y: scroll;
 }
 
 .btn {
