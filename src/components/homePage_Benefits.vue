@@ -17,7 +17,7 @@
       <div class="col-sm shadow-sm box rounded border">
         <i class="fas fa-chart-line fa-3x"></i>
         <h2>Individual Improvement</h2>
-        <div class="content">We train and support our employees in their journey to knowledge and wisdom.</div>
+        <div class="content">We train and support our employees in their journey to excellence.</div>
       </div>
     </div>
     <div class="row" id="mid">
