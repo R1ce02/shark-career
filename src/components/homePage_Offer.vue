@@ -4,16 +4,11 @@
     <div class="row">
       <div class="col-sm">
         <h3 class="centeredtxt">For Students</h3>
-        <p class="text">You want to gain experience in the field of IT alongside your studies? We are prepared to give you a part-time job and are ready to train you. Our team will keep your studies in mind and train you accordingly. If you are studying computer science apply below.</p>
+        <p class="text">You want to gain experience in the field of IT alongside your studies? We are prepared to give you a part-time job and are ready to train you. Our team will keep your studies in mind and train you accordingly. If you are studying computer science apply above.</p>
       </div>
       <div class="col-sm">
         <h3 class="centeredtxt">For Interns</h3>
-        <p class="text">Need a summer internship? You will be able to earn a great amount of practical experience with us. We will do our part in teaching and training you to the best of our capability. If you are a student of a school of higher technical education (HTL) and have the thirst to become better apply now below.</p>
-      </div>
-    </div>
-    <div class="row" >
-      <div class="col" id="apply">
-        <button type="button" class="btn btn-primary" id="applyBtn" v-on:click="goToVacancies">Apply Now</button>
+        <p class="text">Need a summer internship? You will be able to earn a great amount of practical experience with us. We will do our part in teaching and training you to the best of our capability. If you are a student of a school of higher technical education (HTL) and have the thirst to become better apply now above.</p>
       </div>
     </div>
 </div>
