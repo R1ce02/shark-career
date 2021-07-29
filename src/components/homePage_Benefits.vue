@@ -4,36 +4,36 @@
       <h1 class="title centeredtxt">Your Benefits</h1>
     </div>
     <div class="row" id="content">
-      <div class="col-sm shadow-sm box rounded border">
+      <div class="col-lg shadow-sm box rounded border">
         <span class=""><i class="fas fa-clock fa-3x"></i></span>
-        <h2 class="title">Flexible Hours</h2>
+        <h4>Flexible Hours</h4>
         <div class="content">You have flexible working hours, which allows you to work when you find it best suiting your schedule.</div>
       </div>
-      <div class="col-sm shadow-sm box rounded border">
+      <div class="col-lg shadow-sm box rounded border">
         <i class="fas fa-mug-hot fa-3x"></i>
-        <h2>Snacks and Coffee In The Kitchen</h2>
+        <h4>Snacks and Coffee In The Kitchen</h4>
         <div class="content">We have all sorts of healthy snacks and food in our kitchen and of course we've got coffee ;)</div>
       </div>
-      <div class="col-sm shadow-sm box rounded border">
+      <div class="col-lg shadow-sm box rounded border">
         <i class="fas fa-chart-line fa-3x"></i>
-        <h2>Individual Improvement</h2>
+        <h4>Individual Improvement</h4>
         <div class="content">We train and support our employees in their journey to excellence.</div>
       </div>
     </div>
     <div class="row" id="mid">
-      <div class="col-sm shadow-sm box rounded border">
+      <div class="col-lg shadow-sm box rounded border">
         <i class="fas fa-desktop fa-3x"></i>
-        <h2>Ideal Equipment</h2>
+        <h4>Ideal Equipment</h4>
         <div class="content">We choose our equipment to best suit your needs when you at work.</div>
       </div>
-      <div class="col-sm shadow-sm box rounded border">
+      <div class="col-lg shadow-sm box rounded border">
         <i class="fas fa-paper-plane fa-3x"></i>
-        <h2>Interesting Projects</h2>
+        <h4>Interesting Projects</h4>
         <div class="content">We have great national and international partners for projects.</div>
       </div>
-      <div class="col-sm shadow-sm box rounded border">
+      <div class="col-lg shadow-sm box rounded border">
         <i class="fas fa-smile-beam fa-3x"></i>
-        <h2>Great Work Environment</h2>
+        <h4>Great Work Environment</h4>
         <div class="content">We are all committed to excellence and have positive values.</div>
       </div>
     </div>
@@ -47,10 +47,6 @@
   height: 20vh;
 } */
 
-#content, #mid {
-  height: 200px;
-}
-
 .box {
   margin: 0rem 1rem 0rem 1rem;
   display: flex;
@@ -60,6 +56,7 @@
   align-items: center;
   text-align: center;
   overflow: hidden;
+  padding: 50px;
 }
 
 .col-sm h2 {
@@ -80,7 +77,6 @@ i {
   transition: all 1s;
 }
 
-
 .box:hover .content {
   animation-name: fade;
   animation-duration: 1s;
@@ -92,7 +88,7 @@ i {
   transform: translateY(-200px);
 }
 
-.box:hover h2{
+.box:hover h4{
   transform: translateY(-2vw);
   transition: all 1s;
 }
@@ -112,12 +108,12 @@ i {
   margin-top: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   #mid {
     margin-top: 0rem;
   }
   .box {
     margin: 3px;
   }
-}
+} */
 </style>

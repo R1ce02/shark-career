@@ -25,22 +25,29 @@
       <tools class="mb-5"/>
       <benefits class="mb-5"/>
       <offer class="mb-5"/>
-
-      <div class="row" id="places">
-        <h2 class="title centeredtxt">Our Locations</h2>
-
-        <div class="col">
-          <p class="txt centeredtxt">
+      
+      <h2 class="title centeredtxt">Our Locations</h2>
+      <div class="row">
+        <div class="col-md-8 centeredtxt">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2658.9106120391357!2d16.37487381582004!3d48.20833765420869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079fea63e09b%3A0xa190ad51a3039792!2sWollzeile%2025%2C%201010%20Wien!5e0!3m2!1sen!2sat!4v1627539822699!5m2!1sen!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <p class="address">
             Wollzeile 25 / 27 (Mezzanin)<br />1010 Wien
           </p>
         </div>
-
-        <div class="col">
-          <p class="txt centeredtxt">
-            Lenaugasse 12 <br />3400 Weidling/Klosterneuburg
+      </div>
+      <div class="row">
+        <div class="col-md-8 centeredtxt">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2654.583142689436!2d16.305092315822247!3d48.2916350483972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d0ed9dc3d184f%3A0xdd7de1d9cbcd065b!2sLenaugasse%2012%2C%203400%20Klosterneuburg!5e0!3m2!1sen!2sat!4v1627541920021!5m2!1sen!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <p class="address">
+            Lenaugasse 12<br />3400 Klosterneuburg
           </p>
         </div>
       </div>
+
     </div>
     <div id="interestedStrip" class="container-fluid">
       <h3>Want To Join Our Team?</h3>
@@ -90,6 +97,11 @@ export default {
 .btn {
   margin-left: 3vw;
   font-size: 1.5rem;
+}
+
+p.address {
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 a {
