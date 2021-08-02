@@ -18,8 +18,14 @@
         <li class="nav-item">
           <a class="nav-link " v-on:click="goToSolutions">{{ $t("message.solutions") }}</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link " v-on:click="changeLang">Englisch</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" :v-model="$i18n" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{$i18n.locale}}
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li v-on:click="changeLang('en')"><a class="dropdown-item" >EN</a></li>
+            <li><a class="dropdown-item" v-on:click="changeLang('de')">DE</a></li>
+          </ul>
         </li>
       </ul>
     </div>
@@ -43,8 +49,8 @@ methods: {
     this.$router.push({ name: 'Vacancies' });
   }, goToSolutions() {
     this.$router.push({ name: 'Solutions' });
-  }, changeLang() {
-    this.$i18n.locale = "de";
+  }, changeLang(lang) {
+    this.$i18n.locale = lang;
   }
 }
 };
