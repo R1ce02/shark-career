@@ -6,35 +6,35 @@
     <div class="row" id="content">
       <div class="col-lg shadow-sm box rounded border">
         <span class=""><i class="fas fa-clock fa-3x"></i></span>
-        <h4>Flexible Hours</h4>
-        <div class="content">You have flexible working hours, which allows you to work when you find it best suiting your schedule.</div>
+        <h4>{{ $t("heading.flexi") }}</h4>
+        <div class="content">{{ $t("text.flexi") }}</div>
       </div>
       <div class="col-lg shadow-sm box rounded border">
         <i class="fas fa-mug-hot fa-3x"></i>
-        <h4>Snacks and Coffee In The Kitchen</h4>
-        <div class="content">We have all sorts of healthy snacks and food in our kitchen and of course we've got coffee ;)</div>
+        <h4>{{ $t("heading.snacks") }}</h4>
+        <div class="content">{{ $t("text.snacks") }}</div>
       </div>
       <div class="col-lg shadow-sm box rounded border">
         <i class="fas fa-chart-line fa-3x"></i>
-        <h4>Individual Improvement</h4>
-        <div class="content">We train and support our employees in their journey to excellence.</div>
+        <h4>{{ $t("heading.improvement") }}</h4>
+        <div class="content">{{ $t("text.improvement") }}</div>
       </div>
     </div>
     <div class="row" id="mid">
       <div class="col-lg shadow-sm box rounded border">
         <i class="fas fa-desktop fa-3x"></i>
-        <h4>Ideal Equipment</h4>
-        <div class="content">We choose our equipment to best suit your needs when you at work.</div>
+        <h4>{{ $t("heading.equipment") }}</h4>
+        <div class="content">{{ $t("text.equipment") }}</div>
       </div>
       <div class="col-lg shadow-sm box rounded border">
         <i class="fas fa-paper-plane fa-3x"></i>
-        <h4>Interesting Projects</h4>
-        <div class="content">We have great national and international partners for projects.</div>
+        <h4>{{ $t("heading.projects") }}</h4>
+        <div class="content">{{ $t("text.projects") }}</div>
       </div>
       <div class="col-lg shadow-sm box rounded border">
         <i class="fas fa-smile-beam fa-3x"></i>
-        <h4>Great Work Environment</h4>
-        <div class="content">We are all committed to excellence and have positive values.</div>
+        <h4>{{ $t("heading.environment") }}</h4>
+        <div class="content">{{ $t("text.environment") }}</div>
       </div>
     </div>
   </div>

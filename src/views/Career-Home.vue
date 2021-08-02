@@ -3,22 +3,17 @@
     <image-box />
 
     <div class="container mt-3">
-      <h2 class="title">Open Vacancies</h2>
+      <h2 class="title">{{ $t("heading.open") }}</h2>
       <div id="jobs" class="px-3 border">
         
         <vacancies />
       </div>
 
       <div class="row my-5" id="mission">
-        <h5 class="greytxt">Our Mission</h5>
-        <h2 class="title">Provide Others With Supercharged IT Services</h2>
+        <h5 class="greytxt">{{ $t("subheading.mission") }}</h5>
+        <h2 class="title">{{ $t("heading.mission") }}</h2>
         <p class="txt">
-          Our mission is to offer our customers a customised and specialised IT
-          service. We customise our IT solutions to their needs and their
-          priorities. We use new and promising tools to create and develop our
-          products. <br />
-          <br />Exciting challenges lie in our path and we are ready to take
-          them on! <br />Join us on our journey...
+          {{ $t("text.mission") }}
         </p>
       </div>
 
@@ -26,7 +21,7 @@
       <benefits class="mb-5"/>
       <offer class="mb-5"/>
       
-      <h2 class="title centeredtxt">Our Locations</h2>
+      <h2 class="title centeredtxt">{{ $t("heading.location") }}</h2>
       <div class="row">
         <div class="col-md-8 centeredtxt">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2658.9106120391357!2d16.37487381582004!3d48.20833765420869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079fea63e09b%3A0xa190ad51a3039792!2sWollzeile%2025%2C%201010%20Wien!5e0!3m2!1sen!2sat!4v1627539822699!5m2!1sen!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

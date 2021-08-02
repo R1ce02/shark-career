@@ -1,14 +1,12 @@
 <template>
     <div class="row" id="tools">
       <div class="col-lg-4">
-        <h5 class="greytxt">Our Tools</h5>
-        <h2 class="title">Widen The Horizon</h2>
+        <h5 class="greytxt">{{ $t("subheading.tools") }}</h5>
+        <h2 class="title">{{ $t("heading.tools") }}</h2>
         <p class="txt">
-          We are focused on creating great products and offering exceptional
-          services to our customers. This requires us to make changes and adapt
-          to the newest and best.<br />
+          {{ $t("text.tools1") }}<br />
           <br />
-          Your unique skill set can increase our palette of services.
+          {{ $t("text.tools2") }}
         </p>
       </div>
       <div class="col-lg-8">

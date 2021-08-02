@@ -10,13 +10,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" v-on:click="goToHome">Home</a>
+          <a class="nav-link " aria-current="page" v-on:click="goToHome">{{ $t("message.home") }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " v-on:click="goToReferences">References</a>
+          <a class="nav-link " v-on:click="goToReferences">{{ $t("message.ref") }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " v-on:click="goToSolutions">Solutions</a>
+          <a class="nav-link " v-on:click="goToSolutions">{{ $t("message.solutions") }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " v-on:click="changeLang">Englisch</a>
         </li>
       </ul>
     </div>
@@ -28,6 +31,7 @@
 </template>
 
 <script>
+
 export default {
 methods: {
   goToReferences() {
@@ -39,6 +43,8 @@ methods: {
     this.$router.push({ name: 'Vacancies' });
   }, goToSolutions() {
     this.$router.push({ name: 'Solutions' });
+  }, changeLang() {
+    this.$i18n.locale = "de";
   }
 }
 };

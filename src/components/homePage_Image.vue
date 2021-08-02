@@ -3,7 +3,7 @@
     <div id="image">
     <img class="img-fluid" src="../assets/mainImg.jpg" />
     </div>
-    <h1>We Need <span class="test">Your Talent</span></h1>
+    <h1>{{ $t("message.talent1") }} <span class="test">{{ $t("message.talentHighlighted") }}</span></h1>
   </div>
 </template>
 
