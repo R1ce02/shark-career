@@ -97,7 +97,9 @@ export default {
           }
         }
       )
-      window.open('mailto:test@example.com?subject=Application For '+ selectedJob.j_name);
+      // var subject = "Application For " + selectedJob.j_name;
+      this.$router.push({ name: "Application", params: { id: selectedJob.j_name } })
+      // window.open('mailto:rafi.kahn@shark-soft.com?subject=' + encodeURIComponent(subject) + '&body=Hello');
     },
     showCaptcha(id) {
       this.jobs.forEach((job) =>
