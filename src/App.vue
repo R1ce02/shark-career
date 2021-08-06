@@ -63,12 +63,13 @@ methods: {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   font-size: 100%;
-
+  height: 100%;
 }
 
 html, body {
   background-color: var(--background-color);
   color: var(--font-color);
+  height: 100%;
 }
 
 :root {
@@ -86,11 +87,11 @@ html, body {
 
 .title {
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .txt {
-  font-size: 18px;
+  font-size: 1.3rem;
   font-weight: 400;
 }
 

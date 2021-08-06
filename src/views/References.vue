@@ -6,8 +6,8 @@
     </div>
 
     <div class="row">
-      <h1 class="greytxt">References</h1>
-      <h3 class="title">Selected Customer Reference</h3>
+      <h1 class="greytxt">{{ $t("references.heading_2") }}</h1>
+      <h3 class="title">{{ $t("references.subheading_2") }}</h3>
       <div id="imageBox">
         <img src="../assets/customers/burgenland.png" alt="burgenland" />
         <img src="../assets/customers/csc.png" alt="csc" />

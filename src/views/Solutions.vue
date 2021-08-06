@@ -1,6 +1,6 @@
 <template>
   <div class="container pt-3">
-    <h1 class="greytxt">Our Solutions</h1>
+    <h1 class="greytxt">{{ $t("solutions.heading") }}</h1>
     <div class="row">
       <div class="col-md-3 mb-3">
         <div class="list-group" id="list-tab" role="tablist">
@@ -11,7 +11,7 @@
             href="#list-home"
             role="tab"
             aria-controls="list-home"
-            >IT Migration and Re-Platforming</a
+            >{{ $t("solutions.listItem1.heading") }}</a
           >
           <a
             class="list-group-item list-group-item-action"
@@ -20,7 +20,7 @@
             href="#list-profile"
             role="tab"
             aria-controls="list-profile"
-            >Testmanagement</a
+            >{{ $t("solutions.listItem2.heading") }}</a
           >
           <a
             class="list-group-item list-group-item-action"
@@ -29,7 +29,7 @@
             href="#list-messages"
             role="tab"
             aria-controls="list-messages"
-            >EBM Suite</a
+            >{{ $t("solutions.listItem3.heading") }}</a
           >
           <a
             class="list-group-item list-group-item-action"
@@ -38,7 +38,7 @@
             href="#list-settings"
             role="tab"
             aria-controls="list-settings"
-            >EAI (Enterprise Application Integration)</a
+            >{{ $t("solutions.listItem4.heading") }}</a
           >
         </div>
       </div>
@@ -52,15 +52,15 @@
           >
             <div class="card mb-3" >
               <div class="card-body">
-                <h5 class="title card-title ">Moderate and scaleable migration risk and costs</h5>
+                <h5 class="title card-title ">{{ $t("solutions.listItem1.card1_heading") }}</h5>
                 <p class="card-text">
                     <ul class="fa-ul">
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>1:1 migration, fully automated without any manual reworking</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Proven project experience ranges from re-platforming to code conversion</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Multiple generation cycles per day are provided</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>No interruption of daily business</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Minimal Code Freeze Periods (all time record: 1 day!)</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Automatic test generation tools are embedded: capture/replay , regression testing, performance benchmarking</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card1_1") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card1_2") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card1_3") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card1_4") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card1_5") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card1_6") }}</li>
                     </ul>
                 </p>
               </div>
@@ -68,13 +68,13 @@
 
             <div class="card mb-3" >
               <div class="card-body">
-                <h5 class="title card-title"> Solution completeness with the best of breed automated conversion </h5>
+                <h5 class="title card-title">{{ $t("solutions.listItem1.card2_heading") }}</h5>
                 <p class="card-text">
                     <ul class="fa-ul">
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Transformation of 3 and 4 GL source languages (CSP/VAGEN, Smalltalk, Cobol, PL/I, BMS/CICS), Assembler, RPG into Java, C#, C/C++</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Mainframe environments (z/OS, VSE, BS2000) to Linux, AIX, HP-UUX</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Middleware substition (CICS, IMS, CTG, LU6.2, UTM) by SHARK Migration Architecture, Jboss, Websphere, SAP NetWeaver</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Data Migration (Oracle, DB2, VSAM, SESAM, Leasy , DL1) to Oracle, DB2, SAP HANA, PostgreSQL, MySQL</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card2_1") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card2_2") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card2_3") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card2_4") }}</li>
                     </ul>
                 </p>
               </div>
@@ -82,12 +82,12 @@
 
             <div class="card mb-3" >
               <div class="card-body">
-                <h5 class="title card-title">Contributed to skill evolution and employee development program</h5>
+                <h5 class="title card-title">{{ $t("solutions.listItem1.card3_heading") }}</h5>
                 <p class="card-text">
                     <ul class="fa-ul">
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Low Learning curve by providing the original source code as a comment in front of the correspondent migrated code line</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Graduates with a state of the art IT-education are able to maintain the new system without special training</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>No re-training for end users necessary! The look and feel of the applications stay the same with the enhancement of an intuitive graphic user interface</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card3_1") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card3_2") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card3_3") }}</li>
                     </ul>
                 </p>
               </div>
@@ -95,12 +95,12 @@
 
             <div class="card" >
               <div class="card-body">
-                <h5 class="title card-title">Optimal Target Environment provides IT consolidation and simplification</h5>
+                <h5 class="title card-title">{{ $t("solutions.listItem1.card4_heading") }}</h5>
                 <p class="card-text">
                     <ul class="fa-ul">
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>A flexible Java / C# Framework is embedded within the SHARK Migration Architecture and integrates with the individual OO Architecture of the customer</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Simpler, lower cost integration leveragging modern middleware and SOA</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>The complete integration into the underlying data base is self-evident</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card4_1") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card4_2") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem1.card4_3") }}</li>
                     </ul>
                 </p>
               </div>
@@ -114,34 +114,34 @@
           >
             <div class="card mb-3" >
               <div class="card-body">
-                <h5 class="title card-title">Unit-Tests</h5>
+                <h5 class="title card-title">{{ $t("solutions.listItem2.card1_heading") }}</h5>
                 <p class="card-text">
-                     During the Unit Test all generated source code parts are completely (C1-Test) technically tested.
+                     {{ $t("solutions.listItem2.card1_1") }}
                 </p>
               </div>
             </div>
             <div class="card mb-3" >
               <div class="card-body">
-                <h5 class="title card-title">Regressionstests (Capture/Replay)</h5>
+                <h5 class="title card-title">{{ $t("solutions.listItem2.card2_heading") }}</h5>
                 <p class="card-text">
-                    All user interactions within the production environmant are recorded during a defined period (capture) and reproduced on the new target platform (replay). During the evaluation phase it is verified whether errors occure, that means states of the GUI, database and output formats are queried. 
+                    {{ $t("solutions.listItem2.card2_1") }} 
                 </p>
               </div>
             </div>
 
             <div class="card mb-3" >
               <div class="card-body">
-                <h5 class="title card-title">Integration Tests</h5>
+                <h5 class="title card-title">{{ $t("solutions.listItem2.card3_heading") }}</h5>
                 <p class="card-text">
-                    Integration tests are compareable to the quality assurance phase of a project. This includes all testing activities on the complete system, including the connected interfaces. The tests are performed in a controlled test environment (controlled release handover, defined database situations).                 </p>
+                    {{ $t("solutions.listItem2.card3_1") }} </p>
               </div>
             </div>
 
              <div class="card mb-3" >
               <div class="card-body">
-                <h5 class="title card-title">Performancetests using Flooder</h5>
+                <h5 class="title card-title">{{ $t("solutions.listItem2.card4_heading") }}</h5>
                 <p class="card-text">
-                    The performance targets which have been defined during the analysis phase are reviewed and simulated with any number of users.  
+                    {{ $t("solutions.listItem2.card4_1") }}
                 </p>
               </div>
             </div>
@@ -154,25 +154,25 @@
           >
             <div class="card mb-3" >
               <div class="card-body">
-                <h5 class="title card-title">Analysis Tool Set</h5>
+                <h5 class="title card-title">{{ $t("solutions.listItem3.card1_heading") }}</h5>
                 <p class="card-text">
-                     Business process analysis, organisation analysis, data modelling and design for individual applications or for efficient implementation of any standard ERP system (e.g.: Oracle E-Business Suite)
+                     {{ $t("solutions.listItem3.card1_1") }}
                 </p>
               </div>
             </div>
             <div class="card mb-3" >
               <div class="card-body">
-                <h5 class="title card-title">Configurator Tool Set</h5>
+                <h5 class="title card-title">{{ $t("solutions.listItem3.card2_heading") }}</h5>
                 <p class="card-text">
-                    Tool for the definition and calculation of complex bills of materials – capable of full integration into your internal solutions (individual or standard ERP systems).                 
+                    {{ $t("solutions.listItem3.card2_1") }}
                 </p>
               </div>
             </div>
             <div class="card mb-3" >
               <div class="card-body">
-                <h5 class="title card-title">Reporting Tool Set</h5>
+                <h5 class="title card-title">{{ $t("solutions.listItem3.card3_heading") }}</h5>
                 <p class="card-text">
-                    Thanks to the individual design option and the integration of documents of any kind (project plans, logs, Word, Excel, etc.), the flexible Report Writer offers custom-made “up to date” documentation for all project participants, managers, departments, analysts and IT architects.                
+                    {{ $t("solutions.listItem3.card3_1") }}
                 </p>
               </div>
             </div>
@@ -185,23 +185,23 @@
           >
             <div class="card mb-3" >
               <div class="card-body">
-                <h5 class="title card-title">Reporting Tool Set</h5>
+                <h5 class="title card-title">{{ $t("solutions.listItem4.card1_heading") }}</h5>
                 <p class="card-text">
-                    Our EAI-project for the Generali Group is an successful example for a seamless integration of different heterogeneous IT generations (NT, AIX, IBM S/390, OMVS).<br>
+                    {{ $t("solutions.listItem4.card1_1") }}<br>
                     <br>
-                    The solution was based on multi tier architecture using distributed objects and included the following features:
+                    {{ $t("solutions.listItem4.card1_2") }}
                     <ul class="fa-ul">
-                        <li class=""><span class="fa-li"><i class="fas fa-check"></i></span>Integration of the existing legacy systems</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Secure communication (7/24 availability) by caching temporarily non available backend system (e.g. mainframe, UNIX)</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Mapping to convert different formats</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Interfaces to different applications</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Naming and security protocols</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Transaction processing, logging, backtracking and recovery</li>
-                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>XML-specified reusable metadata repository</li>
+                        <li class=""><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem4.card1_li1") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem4.card1_li2") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem4.card1_li3") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem4.card1_li4") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem4.card1_li5") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem4.card1_li6") }}</li>
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>{{ $t("solutions.listItem4.card1_li7") }}</li>
                     </ul>      
-                    An interface layer (resource pool) provided the database connection. Different database systems have been serviced e.g. DB2, Oracle, SQL-Server, Adabas <br>
+                    {{ $t("solutions.listItem4.card1_3") }}<br>
                     <br>
-                    There is communication across servers, which also allows full surveillance of remote servers and centralised software deployment. All available system builds are stored on the software server. The maintenance of the central system builds in the repository also follows XML-standard. 
+                    {{ $t("solutions.listItem4.card1_4") }} 
                 </p>
               </div>
             </div>

@@ -1,17 +1,15 @@
 <template>
   <div class="row" id="projects">
-    <h5 class="greytxt">Our Projects</h5>
-    <h2 class="title">Check Out Some of Our Previous Projects</h2>
+    <h5 class="greytxt">{{ $t("references.heading") }}</h5>
+    <h2 class="title">{{ $t("references.subheading") }}</h2>
 
     <div class="col-sm">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Project: PORRtunity+</h5>
-          <h6 class="card-subtitle mb-2 text-muted">A Project With Porr AG</h6>
+          <h5 class="card-title">{{ $t("references.porrtunity_heading") }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{ $t("references.porrtunity_subheading") }}</h6>
           <p class="card-text">
-            The main goal of this project was to migrate and redesign a legacy
-            system, which is an existing database, to optimise its speed and
-            ease of use.
+            {{ $t("references.porrtunity_text") }}
           </p>
         </div>
       </div>
@@ -19,15 +17,12 @@
     <div class="col-sm">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Project: IVV Migration to Java/Linux</h5>
+          <h5 class="card-title">{{ $t("references.brr_heading") }}</h5>
           <h6 class="card-subtitle mb-2 text-muted">
-            A Project With Bundesrechenzentrum GmbH
+            {{ $t("references.brr_subheading") }}
           </h6>
           <p class="card-text">
-            The main goal of this project was to redesign and renew an older
-            website's frontend and backend. Java was used to create the backend.
-            The frontend was renewed to access the new backend and the design
-            was modernised.
+            {{ $t("references.brr_text") }}
           </p>
         </div>
       </div>

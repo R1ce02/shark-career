@@ -87,6 +87,7 @@ export default {
 
 #jobs {
   overflow-y: scroll;
+  
 }
 
 .btn {
