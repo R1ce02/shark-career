@@ -20,7 +20,7 @@
       <label for="email">Email Address:</label>
       <input id="email" class="form-control mb-3 " name="email" type="email" v-model="emailFrom"/>
       <label for="telephone">Telephone:</label>
-      <input id="telephone" class="form-control mb-3 " name="telephone" type="tel" pattern="^(\d{0}|\d{11})$" oninvalid="setCustomValidity('Please check your number. It should contain 11 digits.')" oninput="setCustomValidity('')" v-model="telephone"/>
+      <input id="telephone" class="form-control mb-3 " name="telephone" type="tel" oninvalid="setCustomValidity('Please check your number.')" oninput="setCustomValidity('')" v-model="telephone"/>
       <label for="body">Your Application:</label>
       <textarea id="body" class="form-control mb-3" name="body" type="text" v-model="body" style="min-height: 220px;" />
       
