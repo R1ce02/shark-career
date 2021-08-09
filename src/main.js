@@ -11,8 +11,8 @@ const messages = {
             home: 'HOME',
             ref: 'REFERENCES',
             solutions: 'SOLUTIONS',
-            talent1: 'We Need',
-            talentHighlighted: 'Your Talent',
+            talent1: 'We need',
+            talentHighlighted: 'your talent',
             
         },
         subheading: {
@@ -135,7 +135,7 @@ const messages = {
             ref: "REFERENZEN",
             solutions: "LÖSUNGEN",
             talent1: 'Wir brauchen',
-            talentHighlighted: 'dein Talent',
+            talentHighlighted: 'Dein Talent',
         },
         subheading: {
             mission: 'UNSERE MISSION',
