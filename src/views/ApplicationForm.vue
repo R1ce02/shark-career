@@ -85,17 +85,16 @@ export default {
         telephone: this.telephone,
         body: this.body
       };
-      try {
         axios.post(process.env.VUE_APP_API + "sendmail/", data).then((request) => {
           if(request["status"] === 200) {
             this.$toast.show("Successfully submitted application");
-            this.$router.push({ name: "Home" })
           }
+          this.$router.push({ name: "Home" });
           }
-        )
-      } catch(error) {
-        this.$toast.warning("Failed to send application!");
-      }
+        ).catch((error) => {
+          console.log('[error]', error.response);
+          this.$toast.warning("Failed to send application!");
+        })
     },
   },
 };

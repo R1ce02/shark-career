@@ -1,7 +1,7 @@
 <template>
   <div id="vacancyList">
     <div v-bind:key="job.j_id" v-for="job in jobs" class="item border">
-      <h4>{{ job.j_name }}</h4>
+      <h4>{{ $t("jobs.job-" + job.id) }}</h4>
       <div id="options">
         <vue-recaptcha
           v-if="job.showRecaptcha"
@@ -18,12 +18,7 @@
         <button class="btn btn-primary" v-if="!job.showRecaptcha" v-on:click="showCaptcha(job.id)">
           Apply
         </button>
-        <a
-        v-bind:href="'mailto:rafi.kahn@shark-soft.com?subject=Application For ' + job.j_name"
-        v-if="job.verified"
-        >
-            <button type="button" class="btn btn-primary">Send Us an Email</button>
-        </a>
+        
       </div>
       
     </div>

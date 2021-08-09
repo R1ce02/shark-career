@@ -10,6 +10,10 @@
         <h3 class="centeredtxt">{{ $t("heading.interns") }}</h3>
         <p class="text">{{ $t("text.interns") }}</p>
       </div>
+      <div class="col-sm">
+        <h3 class="centeredtxt">{{ $t("heading.employee") }}</h3>
+        <p class="text">{{ $t("text.employee") }}</p>
+      </div>
     </div>
 </div>
 </template>

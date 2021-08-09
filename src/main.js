@@ -32,7 +32,8 @@ const messages = {
             location: "Our Locations",
             apply: "Apply For Your Future",
             students: "For Students",
-            interns: "For Interns"
+            interns: "For Interns",
+            employee: "Full-Time Employees"
         },
         text: {
             mission: `Our mission is to offer our customers a customised and specialised IT
@@ -50,7 +51,8 @@ const messages = {
             projects: "We have great national and international partners for projects.",
             environment: "We are all committed to excellence and have positive values.",
             students: "You want to gain experience in the field of IT alongside your studies? We are prepared to give you a part-time job and are ready to train you. Our team will keep your studies in mind and train you accordingly. If you are studying computer science apply above.",
-            interns: "Need a summer internship? You will be able to earn a great amount of practical experience with us. We will do our part in teaching and training you to the best of our capability. If you are a student of a school of higher technical education (HTL) and have the thirst to become better apply now above."
+            interns: "Need a summer internship? You will be able to earn a great amount of practical experience with us. We will do our part in teaching and training you to the best of our capability. If you are a student of a school of higher technical education (HTL) and have the thirst to become better apply now above.",
+            employee: "You want to be a part of our team? Well we are prepared to offer you a position. You can be part of an ambitious team and great projects."
         },
         references: {
             heading: "Our Projects",
@@ -127,6 +129,13 @@ const messages = {
                 card1_4: "There is communication across servers, which also allows full surveillance of remote servers and centralised software deployment. All available system builds are stored on the software server. The maintenance of the central system builds in the repository also follows XML-standard."
             },
 
+        },
+        jobs: {
+            "job-1": "Java Full Stack Developer",
+            "job-2": "UI/UX Developer",
+            "job-3": "Part-Time Job",
+            "job-4": "Internship",
+            "job-5": "Unsolicited Application"
         }
     },
     de: {
@@ -154,7 +163,8 @@ const messages = {
             location: "Unsere Standorte",
             apply: "Bewerben für deine Zukunft",
             students: "StudententInnen",
-            interns: "PraktikantInnen"
+            interns: "PraktikantInnen",
+            employee: "Vollzeitmitarbeiter"
         },
         text: {
             mission: `Unser Ziel ist es, unseren Kunden einen maßgeschneiderten und spezialisierten
@@ -171,7 +181,8 @@ const messages = {
             projects: "Wir haben tolle nationale und internationale Partner für Projekte.",
             environment: "Wir sind alle zu Spitzenleistungen verpflichtet und haben positive Werte.",
             students: "Sie wollen neben Ihrem Studium Erfahrungen im IT-Bereich sammeln? Wir bieten Ihnen einen Nebenjob und sind bereit, Sie auszubilden. Unser Team wird Ihr Studium im Auge behalten und Sie entsprechend ausbilden. Wenn Sie Informatik studieren, bewerben Sie sich oben.",
-            interns: "Sie brauchen ein Sommerpraktikum? Bei uns können Sie eine Menge praktischer Erfahrungen sammeln. Wir werden unseren Teil dazu beitragen, Sie nach besten Kräften zu unterrichten und auszubilden. Wenn Sie Schüler/in einer Höheren Technischen Lehranstalt (HTL) sind und den Drang haben, besser zu werden, bewerben Sie sich jetzt oben."
+            interns: "Sie brauchen ein Sommerpraktikum? Bei uns können Sie eine Menge praktischer Erfahrungen sammeln. Wir werden unseren Teil dazu beitragen, Sie nach besten Kräften zu unterrichten und auszubilden. Wenn Sie Schüler/in einer Höheren Technischen Lehranstalt (HTL) sind und den Drang haben, besser zu werden, bewerben Sie sich jetzt oben.",
+            employee: "Sie wollen Teil unseres Teams werden? Dann sind wir bereit, Ihnen eine Stelle anzubieten. Sie können Teil eines ambitionierten Teams und großartiger Projekte sein."
         },
         references: {
             heading: "Unsere Projekte",
@@ -248,6 +259,13 @@ const messages = {
                 card1_4: "Es gibt eine serverübergreifende Kommunikation, die auch eine vollständige Überwachung von Remote-Servern und eine zentralisierte Softwareverteilung ermöglicht. Alle verfügbaren System-Builds werden auf dem Software-Server gespeichert. Die Pflege der zentralen System-Builds im Repository folgt ebenfalls dem XML-Standard."
             },
 
+        },
+        jobs: {
+            "job-1": "Java Full Stack Entwickler",
+            "job-2": "UI/UX Entwickler",
+            "job-3": "Teilzeitjob",
+            "job-4": "Praktikum",
+            "job-5": "Initiativbewerbung"
         }
     }
 }
