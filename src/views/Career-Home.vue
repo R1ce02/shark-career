@@ -4,7 +4,7 @@
 
     <div class="container mt-3">
       <h2 class="title">{{ $t("heading.open") }}</h2>
-      <div id="jobs" class="px-3 border">
+      <div id="jobs" class="px-3 border" style="min-height=280px;">
         
         <vacancies />
       </div>

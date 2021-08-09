@@ -75,6 +75,9 @@ export default {
   // mounted() {
   //     this.getJobs()
   // },
+  mounted() {
+    this.updateVisitCount()
+  },
   methods: {
     // getJobs() {
     //     try {
@@ -87,6 +90,15 @@ export default {
     //         this.$toast.error('Please connect to an internet connection!');
     //     }
     // }
+    updateVisitCount() {
+      if(localStorage.getItem("VisitCount") === null) {
+        localStorage.setItem("VisitCount", 1);
+      } else {
+        var count = parseInt(localStorage.getItem("VisitCount"))
+        count = count + 1;
+        localStorage.setItem("VisitCount", count)
+      }
+    },
     verify(id) {
       var selectedJob
       this.jobs.forEach((job) =>
@@ -97,16 +109,29 @@ export default {
           }
         }
       )
-      // var subject = "Application For " + selectedJob.j_name;
       this.$router.push({ name: "Application", params: { id: selectedJob.j_name } })
-      // window.open('mailto:rafi.kahn@shark-soft.com?subject=' + encodeURIComponent(subject) + '&body=Hello');
     },
     showCaptcha(id) {
-      this.jobs.forEach((job) =>
+      var count = parseInt(localStorage.getItem("VisitCount"))
+      if(count > 3) {
+        this.jobs.forEach((job) =>
+          {  
+            if (job.id === id) job.showRecaptcha = true;
+          }
+        )
+      } else {
+        var selectedJob
+        this.jobs.forEach((job) =>
         {  
-          if (job.id === id) job.showRecaptcha = true;
+          if (job.id === id) {
+            selectedJob = job;
+            job.verified = true
+          }
         }
       )
+        this.$router.push({ name: "Application", params: { id: selectedJob.j_name } })
+      }
+      
     },
     recaptchaExpired(id) {
         this.jobs.forEach((job) =>
@@ -147,6 +172,6 @@ h4 {
 }
 
 #vacancyList {
-  height: 300px;
+  min-height: 450px;
 }
 </style>
