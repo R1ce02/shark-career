@@ -1,7 +1,7 @@
 <template>
   <div id="benefits">
     <div class="row">
-      <h1 class="title centeredtxt">Your Benefits</h1>
+      <h1 class="title centeredtxt">{{ $t("heading.benefits") }}</h1>
     </div>
     <div class="row" id="content">
       <div class="col-lg shadow-sm box rounded border">

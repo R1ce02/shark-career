@@ -33,7 +33,8 @@ const messages = {
             apply: "Apply For Your Future",
             students: "For Students",
             interns: "For Interns",
-            employee: "Full-Time Employees"
+            employee: "Full-Time Employees",
+            benefits: "Your Benefits"
         },
         text: {
             mission: `Our mission is to offer our customers a customised and specialised IT
@@ -164,7 +165,8 @@ const messages = {
             apply: "Bewerben für deine Zukunft",
             students: "StudententInnen",
             interns: "PraktikantInnen",
-            employee: "Vollzeitmitarbeiter"
+            employee: "Vollzeitmitarbeiter",
+            benefits: "Ihre Vorteile"
         },
         text: {
             mission: `Unser Ziel ist es, unseren Kunden einen maßgeschneiderten und spezialisierten
